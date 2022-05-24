@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <div class="card">
-        <div class="inner-box">
+        <div class="inner-box" id="card">
           <div class="card-front">
             <h2>LOGIN</h2>
             <form>
@@ -30,8 +30,10 @@
               <button type="submit" class="submit-btn">Submit</button>
               <input type="checkbox" /><span>Remember Me</span>
             </form>
-            <button type="button" class="btn">I Am New Here</button>
-            <a href="">Forget Passwork</a>
+            <button type="button" class="btn" onclick="openRegister()">
+              I'm new here
+            </button>
+            <a href="">Forget Password</a>
           </div>
           <!-- the beginning of card back  -->
           <div class="card-back">
@@ -58,8 +60,10 @@
               <button type="submit" class="submit-btn">Submit</button>
               <input type="checkbox" /><span>Remember Me</span>
             </form>
-            <button type="button" class="btn">I Am New Here</button>
-            <a href="">Forget Passwork</a>
+            <button type="button" class="btn" onclick="openLogin()">
+              I've an account
+            </button>
+            <a href="">Forget Password</a>
           </div>
         </div>
       </div>
