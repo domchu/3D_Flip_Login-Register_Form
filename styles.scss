@@ -81,10 +81,10 @@ button {
   color: #fff;
   cursor: pointer;
 }
-.submit-btn {
+.btn {
   position: relative;
 }
-.submit-btn::after {
+.btn::after {
   content: "\27a4";
   color: #333;
   line-height: 32px;
